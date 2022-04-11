@@ -5,10 +5,10 @@ from authors_sql import AuthorsSQL
 from books_sql import BooksSQL
 from datetime import datetime
 db = mysql.connector.connect(
-    host = "localhost",
-    user = "root",
+    host="localhost",
+    user="root",
     password = "Abc12345!",
-    db = "chat",
+    db = "Neman",
     autocommit = True)
 cursor = db.cursor()
 
